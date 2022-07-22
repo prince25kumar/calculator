@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+.calculator {
+    width: 360px;
+    margin: auto;
+    background-color: #080608e9;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.display {
+    width: 100%;
+    height: 70px;
+    font-size: 38px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+}
+
+.display input {
+    padding-left: 20px;
+}
+
+input[type=button] {
+    width: 75px;
+    height: 75px;
+    background-color: #166831f5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 34px;
+}
+
+table {
+    padding-left: 10px;
+}
+
+.td input[type=button] {
+    width: 160px;
+}
